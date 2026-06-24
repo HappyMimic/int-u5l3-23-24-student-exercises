@@ -1,10 +1,16 @@
 let array = [1, 2, 3, 4, 5];
 // 1. Use a forEach loop to print each element to the console.
+array.forEach(function(item){
+    console.log(item);
+});
 
 
 
-
-// 2. Create an array of colors ['red', 'green', 'blue']. 
+// 2. Create an array of colors ['red', 'green', 'blue'].
+let colors  = ['red','green','blue'];
+colors.forEach(function(color){
+    console.log(`Color: ${color}`);
+});
 //  - Use a forEach loop to add "Color:" before each element and print them to the console. 
 //  - The output should look like "Color: red", "Color: green", "Color: blue".
 
